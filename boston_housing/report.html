@@ -11982,9 +11982,9 @@ Standard deviation of prices: $165,171.13
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-less
-more
-more</p>
+less - As the number of rooms increases, It is possible that the size of the home is bigger and so does the value.
+more - When the lower class workers percentage is less, it should be located in a relatively posh area with decent locality.
+more - Lesser the PTRATIO, more concentration is provided by the teacher on the well being of student.</p>
 
 </div>
 </div>
@@ -12136,7 +12136,7 @@ more</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> This model has captured 92 percent of variance in Y.</p>
+<p><strong>Answer:</strong> This model has captured 92 percent of variance in Y. I do not consider that model has accounted for all the variability. 8 percent of variability is still unaccounted by the model.</p>
 
 </div>
 </div>
@@ -12219,6 +12219,8 @@ We use training set to train the model and testing set to validate whether our m
 <p>If the testing set is small, though we might be training the model well with respect to training data, we will fail to properly check whether it is generalizing and not being overfitted.</p>
 <p>If the training set is small, the model end up being underfit because lack of enough data, which is again a problem.</p>
 <p>We need to find a good balance to make sure that it neither overfits nor underfits.</p>
+<p>We use testing data to verify the performance of our model on independent data set.
+ We also use testing data to check overfitting.</p>
 
 </div>
 </div>
@@ -13783,7 +13785,8 @@ gvg8YgAAAABJRU5ErkJggg==
 <p><strong>Answer: </strong>
 High bias
 High variance
-low validation score compared to training score justifies of high variance.</p>
+Low validation score compared to training score justifies of high variance.
+Low validation score and training score justifies of high bias.</p>
 
 </div>
 </div>
@@ -13843,7 +13846,7 @@ low validation score compared to training score justifies of high variance.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> Grid search technique is used to find the optimal hyper/meta parameters of the model. The 'grid' in Grid search entails the combinations of hyper parameter values. For example while doing regression with a polynomial model, the coefficients are optimized as part of training process but the choices like the degree of the polynomial(or number of hidden layers in neural network) etc are optimized as part of Grid search technique.</p>
+<p><strong>Answer: </strong> Grid search technique is used to find the optimal hyper/meta parameters of the model. The 'grid' in Grid search entails the combinations of hyper parameter values. For example while doing regression with a polynomial model, the coefficients are optimized as part of training process but the choices like the degree of the polynomial(or number of hidden layers in neural network) etc are optimized as part of Grid search technique. In our example, we are searching from 1 to 10.</p>
 
 </div>
 </div>
@@ -14106,7 +14109,9 @@ Predicted selling price for Client 3&#39;s home: $931,636.36
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong>$403,025.00,$237,478.72,931,636.36</p>
+<p><strong>Answer: </strong>$403,025.00 - because of medium number of rooms, medium neighbor poverty level and student to teacher ratio,
+$237,478.72 - because of less number of rooms, high neighbor poverty level and student to teacher ratio.
+931,636.36 - because of more number of rooms, less neighbor poverty level and student to teacher ratio.</p>
 
 </div>
 </div>
