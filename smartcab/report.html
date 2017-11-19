@@ -16655,8 +16655,8 @@ Otherwise go forward.</li>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-For the smartcab itself, the objective is to learn how to obey traffic rules, and get to the destination. Both of them can be learned from immediate reward, which has nothing to do with the future rewards.
-For the environment, the states at each step are mostly independent. The choice the Smartcab makes at a certain step does not effect the state of the light or traffic on the next step. The ‘waypoint’ is the only feature of the state that may be dependent on the previous action but the disavantages of adding the future reward could negatively affect Q-values!</p>
+Smartcab wants to learn how to obey traffic rules and reach the destination. We don't need to consider future rewards to accomplish that.
+Different states in environment are pretty much independent. So, considering future rewards doesn't make much sense and infact can have a negative impact.</p>
 
 </div>
 </div>
