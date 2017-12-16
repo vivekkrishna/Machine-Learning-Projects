@@ -11930,8 +11930,10 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ol>
-<li>In the agent.py, enforce_deadline flag is to enforce the cab to reach the destination before a particular amount of time.</li>
-<li>alpha – continuous calue for the learning rate, default is 0.5: The learning rate determines to what extent the newly acquired information will override the old information. A factor of 0 will make the agent not learn anything, while a factor of 1 would make the agent consider only the most recent information.</li>
+<li><p>In the agent.py, enforce_deadline flag is set to True to enforce a deadline metric.</p>
+</li>
+<li><p>alpha – continuous calue for the learning rate, default is 0.5: The learning rate determines to what extent the newly acquired information will override the old information. A factor of 0 will make the agent not learn anything, while a factor of 1 would make the agent consider only the most recent information.</p>
+</li>
 <li><p>display – set to False to disable the GUI if PyGame is enabled. This may save time when we are running large numbers of Monte Carlo runs and trying to find the optimal parameters such as epsilon and alphs.</p>
 </li>
 <li><p>The function 'act' is called when an agent performs an action.</p>
@@ -13246,7 +13248,7 @@ sxr5/1aP7/slXNevAAAAAElFTkSuQmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ol>
-<li>Total 54 states are possible. waypoint has three options, light has two, remaining oncoming, left have three options each. yes, 54 is maneagable size of state space to learn in a reasonable number of training trails.</li>
+<li>Total 96 states are possible. waypoint has three options(forward,left,right), light has two(red,green), remaining oncoming, left have four options each(None,left,right,forward). yes, 96 is maneagable size of state space to learn in a reasonable number of training trails.</li>
 </ol>
 
 </div>
